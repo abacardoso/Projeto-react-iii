@@ -15,6 +15,7 @@ aside.app-sidebar footer .button-sidebar {
     width: 100px;
     height: 40px;
     border: 0;
+    box-shadow: 0.1em 0.1em 0.1em rgba(48, 46, 46, 0.774);
 
     background: #05c5cc;
     border-radius: 30px;
@@ -24,6 +25,10 @@ aside.app-sidebar footer .button-sidebar {
     justify-content: center;
     transition: background-color 0.2s;
     cursor: pointer;
+
+    font-size: 16px;
+    color:  rgb(233, 230, 230);
+    text-shadow: 0.1em 0.1em 0.1em rgba(48, 46, 46, 0.774);
 }
   
 aside.app-sidebar footer .button-sidebar:hover {

@@ -9,9 +9,11 @@ const Home = () => {
                 <h1>É hora de maratonar</h1>
                 <p>Dicas de séries para melhorar aquele domingo tedioso, by Anna Beatriz</p>
             
-            </main>
+              </main>
+
               <Link to= "/series" class="enter-app">séries</Link>
-              <Link to= "/sobre" class="enter-app">sobre</Link>              
+              <Link to= "/sobre" class="enter-app">sobre</Link>
+                
             </div>
 
         </div>

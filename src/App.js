@@ -7,8 +7,6 @@ function App() {
       <Routes/>
      
 
-
-
     </div>
   );
 }
