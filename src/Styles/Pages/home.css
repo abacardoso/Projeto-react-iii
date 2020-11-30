@@ -2,7 +2,7 @@
     padding: 2rem;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(white);
+    background: linear-gradient(329.54deg,#f59db8 0%, #f76079 100%);
 	display: flex;
 	justify-content: center;
 }
@@ -38,19 +38,28 @@
 	line-height: 34px;
 }
 
+.content-wrapper__button {
+	display: flex;
+	flex: wrap;
+	justify-content: space-around;
+	margin-bottom: 120px;
+
+}
+
+
 .enter-app {
 	position: relative;
 	width: 100px;
 	height: 40px;
-	box-shadow: 0.1em 0.1em 0.1em rgba(48, 46, 46, 0.774);
 	
-	background: #05c5cc;
+	background: #f84b68;
 	border-radius: 30px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	transition: background-color 0.2s;
+	box-shadow: 2px 2px 2px rgb(248, 184, 203);
 
 	cursor: pointer;
 	font-size: 16px;

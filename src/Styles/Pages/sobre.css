@@ -1,47 +1,41 @@
 #page-sobre {
-	width: 100vw;
-	height: 100vh;
-    padding: 2rem;
-    margin-left: 200px;
-
+    margin-top: 80px;
+    width: 900px;
+    padding: 40px;
+    height: 500px;
+    margin-left: 300px;
+    border-radius: 7px;
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .container-sobre{
     display: flex;
-    justify-content: center;
-    max-width: 600px;
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 7px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-
-}
-
-.container-sobre img {
-    margin: 10px;
-    height:200px;
     
 }
 
-.container-sobre p {
+
+.sobre__foto {
+    margin: 10px;
+    height:300px;  
+    border-radius: 7px; 
+}
+
+.sobre__paragrafo {
     font-weight: 50;
-    text-align: justify;
     font-size: 100%;
+    color:rgb(32, 29, 29);
     margin: 10px;
-    
+    text-align: justify;    
 }
 
-
-.container-links{
-
-    
+.container-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.container-links h4{
-    font-size: 35px;
-    font-weight: 900;
-    line-height: 78px;
-    margin-top: 80px;
+.sobre__links{
+    color: rgb(32, 29, 29);
+    text-decoration: none;
 }
-
-

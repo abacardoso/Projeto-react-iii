@@ -20,10 +20,10 @@ const Series = () => {
           <Sidebar/>
 
           <div id="container-busca">
-           <h1>Busca séries:</h1>
-           <input
+           <h2 className="container-busca__titulo"></h2>
+           <input className="container-busca__input"
              type="text"
-             placeholder="Digite o título que deseja buscar"
+             placeholder="digite aqui o título que deseja buscar"
              onChange={e=>{setBusca(e.target.value);}}
              />
 
@@ -34,9 +34,10 @@ const Series = () => {
               filtroSeries.map (serie=>{
                  return (
                  <div key={serie.id} className="card">
-                  <h3>{serie.nome}</h3>
-                  <p>Sinopse: {serie.descrição}</p>
+                  <h3>Título: {serie.nome}</h3>
+                  <p>{serie.genero}</p>
                   <img src={serie.imagem} alt="Imagem referente a série descrita acima."/>
+                  <p>Sinopse: {serie.descrição}</p>
                  </div>
                  )
                 
